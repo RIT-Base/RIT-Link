@@ -38,6 +38,16 @@ document.addEventListener('DOMContentLoaded', function() {
             
             switch (buttonText) {
 
+                case 'Guild Quest (GQ)':
+                    console.log('RIT-GQ dibuka');
+                    window.open('https://rit-base.github.io/RIT-GQ/', '_blank');
+                    break;
+                
+                case 'Learning Resources (CLR)':
+                    console.log('RIT-CLR dibuka');
+                    window.open('https://rit-base.github.io/RIT-CLR/', '_blank');
+                    break;
+                
                 case 'WhatsApp':
                     console.log('WhatsApp dibuka');
                     window.open('https://chat.whatsapp.com/By2q5fyT55oK2GCxuxEFFp', '_blank');
